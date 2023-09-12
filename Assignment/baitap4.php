@@ -7,8 +7,9 @@
 </head>
 <body>
     <?php 
-        $so_dau = $_POST["so_dau"];
-        $so_cuoi = $_POST["so_cuoi"];
+        
+        $so_dau= $_POST["sodau"];
+        $so_cuoi= $_POST["socuoi"];
         $tong = 0;
         $tong_chan = 0;
         $tong_le = 0;
@@ -30,20 +31,20 @@
             }
         }
     ?>
-    <form action="bai4.php" method="POST">
+    <form action="baitap4.php" method="POST">
         <table width="728" border="1">
             <tr>
                 <td width="122">&nbsp;</td>
                 <td width="76">So bat dau</td>
                 <td>
                     <label for="textfield"></label>
-                    <input type="text" name="so_dau" id="textfield" value="<?php echo $_POST["so_dau"];
+                    <input type="text" name="sodau" id="textfield" value="<?php  if(isset($so_dau)) echo $so_dau;
                     ?>">
                 </td>
                 <td width="152">So ket thuc</td>
                 <td width="175">
                     <label for="textfield2"></label>
-                    <input type="text" name="so_cuoi" id="textfield2" value="<?php echo $_POST["so_cuoi"];
+                    <input type="text" name="socuoi" id="textfield2" value="<?php if(isset($so_cuoi)) echo $so_cuoi;
                     ?>">
                 </td>
             </tr>

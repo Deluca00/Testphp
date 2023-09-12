@@ -23,7 +23,8 @@ if (isset($_POST["a"]) && isset($_POST["b"])) {
 }
 ?>
 
-<form action="bai2.php" method="post">
+
+<form action="baitap2.php" method="post">
     <table width="744" border="1">
         <tr>
             <td colspan="3" bgcolor="#336699"><strong>Giải phương trình bậc 1</strong></td>

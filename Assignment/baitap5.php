@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="bai5.php" method="post">
+    <form action="baitap5.php" method="post">
         <table width="806" border="1">
             <tr>
                 <td colspan="4" bgcolor="#336699"><strong>Giai phuong trinh bac 2</strong></td>

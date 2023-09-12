@@ -36,7 +36,7 @@
         }
     }
     ?>
-    <form action="bai3.php" method="POST">
+    <form action="baitap3.php" method="POST">
         <table width="519" border="1">
             <tr>
                 <td colspan="3">Doc so</td>
