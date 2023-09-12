@@ -7,9 +7,6 @@
 </head>
 <body>
     <?php  
-    if(isset($_POST["a"])=='' && isset($_POST["b"])=='' && isset($_POST["c"])=='')
-    $nghiem = 'Vui lòng nhập các cơ số ';
-
     function giai_pt_bac_1($a, $b) {
         if($a=='' && $b=='' )
            $nghiem ='Vui lòng nhập các cơ số';
