@@ -29,6 +29,19 @@
                 case "5":
                     $chu = "Nam";
                     break;
+                case "6":
+                    $chu = "Sau";
+                    break;
+                case "7":
+                    $chu = "Bay";
+                    break;
+                case "8":
+                    $chu = "Tam";
+                    break;
+                case "9":
+                    $chu = "Chin";
+                    break;
+                    
                 default:
                     $chu = "Khong hop le";
                     break;
