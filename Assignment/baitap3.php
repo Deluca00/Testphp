@@ -41,7 +41,6 @@
                 case "9":
                     $chu = "Chin";
                     break;
-                    
                 default:
                     $chu = "Khong hop le";
                     break;
