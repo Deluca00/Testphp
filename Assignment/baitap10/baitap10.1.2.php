@@ -13,8 +13,7 @@ unset($_SESSION['name']);// huy session co ten la 'name'
 <?php
 echo 
 // "Chao ban ".$_SESSION['name']." co tuoi la:".$_SESSION['age']
-session_destroy();
-;
+session_destroy();;
 ?>
 </body>
 </html>
